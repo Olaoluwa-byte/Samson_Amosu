@@ -2,7 +2,7 @@ import json
 import requests  # Import the requests module
 from datetime import datetime
 
-API_KEY = '62b3877302230c43c788177ecd264131'  # Your OpenWeatherMap API key
+API_KEY = ''  # Your OpenWeatherMap API key
 BASE_URL = 'http://api.openweathermap.org/data/2.5/weather'
 
 def get_weather_data(lat, lon):
